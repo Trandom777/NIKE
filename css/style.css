@@ -1,0 +1,431 @@
+
+/* PAGINA DE INICIO */
+
+/* body inicio */
+body {
+    margin: 0px;
+}
+
+/* header inicio */
+.header-inicio {
+    text-align: center;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-inicio--h1 {
+    color: white;
+
+    text-align: center;
+
+    background-color: black;
+
+    margin: 0px;
+    padding: 30px;
+
+    
+}
+
+/* nav inicio */
+.nav-inicio {
+
+    margin: 0px;
+}
+
+.nav--list {
+
+    list-style: none;
+
+    background-color: red;
+    
+
+    margin: 0px;
+    padding: 5px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.nav--list li{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: center;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.nav--list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav--list li:hover {
+    color: black;
+}
+
+/* seccion 1 inicio */
+.s1-inicio {
+
+    margin: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.s1-inicio img {
+    border: 2px solid black;
+
+    height: 350px;
+}
+
+.s1-inicio--img1 , .s1-inicio--img3 {
+    width: 450px;
+}
+
+.s1-inicio--img2 {
+    width: 650px;
+}
+
+/* seccion 2  inicio */
+.s2-inicio--title {
+    color: white;
+    text-align: center;
+
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/850/294/438/burn-burning-nike-abstract-3d-and-cg-hd-art-wallpaper-preview.jpg);
+   
+    background-position-x: left;
+    background-position-y: 255px;
+    
+    margin: 0px;
+    padding: 20px;
+
+}
+
+.s2-inicio--text {
+    background-color: lightblue;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+}
+
+/** PAGINA DE ROPA **/
+
+/* header cloth */
+.cloth--header {
+    text-align: center;
+
+    background-color: black;
+
+    padding-bottom: 3px;
+}
+
+.cloth--header--inicio {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cloth--header--titulo {
+    color: white;
+
+    text-align: center;
+
+
+    margin: 0px;
+    padding: 5px;
+}
+
+.cloth--header--goto-inicio {
+    
+    font-size: 20px;
+
+    text-align: center;
+
+    background-color: red;
+
+    border: 2px solid white;
+
+    margin: 0px;
+    padding: 2px;
+    
+}
+
+.cloth--header--goto-inicio a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* seccion 1 cloth */
+
+.cloth--s1--title {
+    color: white;
+
+    text-align: center;
+
+    background-color: black;
+}
+
+.cloth--s1--list {
+
+    padding: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cloth--s1--list li {
+    color: white;
+
+    text-align: center;
+    list-style: none;
+
+    padding: 100px;
+
+    width: 100px;
+   
+}
+
+.cloth--s1--list li {
+    border: 2px solid black;
+}
+
+.cloth--s1--i1 {
+
+    background-image: url(https://i.pinimg.com/originals/59/44/98/5944983c32226da1a98a28af9f511503.jpg);
+    background-position: center -70px;
+}
+
+.cloth--s1--i2 {
+
+    background-image: url(https://www.estarguapas.com/pics/2021/04/27/nike-dry-acdmy-pant-kpz-pantalones-ninos-negro-blackwhitewhite-m-62871.jpg);
+    background-position: center -10px;
+}
+
+.cloth--s1--i3 {
+
+    background-image: url(https://www.padelnuestro.com/images/cargador/productos/imagen-1-14398-7e786900-13462-NORMAL.jpg);
+    background-position: center -150px;
+}
+
+.cloth--s1--i4 {
+
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_926225-MLA45794730399_052021-W.jpg);
+    background-position: center -100px;
+}
+
+/* seccion 2 cloth */
+
+.cloth--s2--i1 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtoOZKzxgQTjBV_2L921Yl6jO8M9W3UH0fZA&usqp=CAU);
+}
+
+.cloth--s2--i2 {
+    background-image: url(https://i.pinimg.com/736x/1d/53/e4/1d53e4966ebe82c436bc9357fb63aa9c.jpg);
+    background-position: center;
+}
+
+.cloth--s2--i3 {
+    background-image: url(https://www.stockcenter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw4814e3c2/products/NI_AT5883-010/NI_AT5883-010-1.JPG);
+    background-position: center;
+}
+
+.cloth--s2--i4 {
+    
+    background-image: url(http://4.bp.blogspot.com/_RmfQGw_PAmk/TSo44tX9iUI/AAAAAAAAKHM/VgFEGcrduW8/s1600/1985-air-jordan-cortesia-nike_2008-11-18_8135630102.jpg);
+    background-position: center;
+}
+
+/** PAGINA DE MOTIVACION **/
+
+.motivation--header {
+    color: white;
+    text-align: center;
+
+    background-color: black;
+
+    padding-bottom: 3px;
+}
+
+.motivation--header--h1 {
+    margin: 0px;
+}
+
+.motivation--header--goto-inicio {
+
+    font-size: 20px;
+
+    text-align: center;
+
+    background-color: red;
+
+    border: 2px solid white;
+
+    margin: 0px;
+    padding: 2px;
+    
+}
+
+.motivation--header--goto-inicio a {
+    color: white;
+    text-decoration: none;
+}
+
+.motivation--header--inicio {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav {
+    margin-bottom: 50px;
+}
+
+/* seccion 1 */
+
+/* article 1 */
+.motivation--s1--d {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+}
+
+/** PAGINA DE SPORT **/
+/* body */
+
+/* header */
+.header-sport {
+    text-align: center;
+
+    background-color: black;
+
+    padding-bottom: 3px;
+}
+
+.header-sport-inicio {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header-sport--h1 {
+    color: white;
+
+    margin: 0px;
+}
+
+.header-motivation--goto-inicio {
+    color: black;
+    font-size: 20px;
+
+    text-align: center;
+
+    background-color: red;
+
+    border: 2px solid white;
+
+    margin: 0px;
+    padding: 2px;
+    
+}
+
+/* nav */
+.nav-motivation {
+
+    margin-bottom: 10px;
+}
+
+/* section */
+.sport-container {
+    display: grid;
+    grid-template-areas: 
+    "img1 img1 img2 img3"
+    "img4 img5 img6 img3"
+    "img7 img8 img9 img3"
+    ;
+
+    grid-template-rows: repeat(4, 100px);
+
+    grid-gap: 30px;
+
+    margin: 0px 5px 5px 5px;
+
+}
+
+.sport-container img {
+    border: 1px solid black;
+}
+
+.sport-container .img1 {
+    grid-area: img1;
+}
+
+.sport-container .img2 {
+    grid-area: img2;
+}
+
+.sport-container .img3 {
+    grid-area: img3;
+}
+
+.sport-container .img4 {
+    grid-area: img4;
+}
+
+.sport-container .img5 {
+    grid-area: img5;
+}
+.sport-container .img6 {
+    grid-area: img6;
+}
+.sport-container .img7 {
+    grid-area: img7;
+}
+.sport-container .img8 {
+    grid-area: img8;
+}
+.sport-container .img9 {
+    grid-area: img9;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+    color: white;
+
+    background-color: red;
+
+}
+
+footer div ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding: 0px;
+    margin: 3px;
+}
+
+footer div ul li {
+    padding: 3px;
+}
